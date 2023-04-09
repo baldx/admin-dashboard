@@ -142,23 +142,32 @@ a {
     text-decoration: none;
 }
 
-
-
 .sidebar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr 5fr;
+    box-shadow: var(--dark-blue-gradient) 0px 8px 12px;
+}
+
+
+.dashboard {
+    grid-column: 2 / 3;
+    align-self: center;
 }
 
 .top {
+    display: grid;
     justify-self: center;
     align-self: center;
+    font-size: 2.5em;
+    margin: 16px;
 }
 
 .nav, .user-stuff {
     font-size: 2em;
     display: grid;
     padding-left: 32px;
+    grid-column: 1 / 2;
 }
 
 li::marker {
