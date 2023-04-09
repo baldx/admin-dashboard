@@ -39,12 +39,15 @@ img {
 .header {
     grid-column: 2 / 3;
     background-color: var(--h-bg-color);
+    box-shadow: var(--dark-blue-gradient) 0px 8px 24px;
+    z-index: 1;
 }
 
 .sidebar {
     background-color: var(--side-bar-color);
     grid-row: 1 / 4;
     height: 1fr;
+    z-index: 2;
 }
 
 main {
@@ -85,4 +88,45 @@ input[type="search"] {
     border: none;
     background: var(--bg-color);
     padding: 8px;
+}
+
+.sub-header {
+    display: grid;
+    grid-template-columns: 0fr 3fr 2fr;
+    padding: 16px;
+    padding-left: 64px;
+}
+
+.sub-header .profile img {
+    height: 5em;
+}
+
+.user-info {
+    padding-left: 16px;
+    display: grid;
+}
+
+.user-name-at {
+    font-size: 1.8em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 32px;
+    align-self: center;
+    gap: 16px;
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+    background-color: var(--side-bar-color);
+    padding: 16px;
+    font-size: 1.4em;
+}
+
+button:active {
+    background-color: #002B5B;
+    color: white;
 }
