@@ -93,6 +93,10 @@ input[type="search"] {
     padding: 8px;
 }
 
+input[type="search"]:focus {
+    border: 2px solid var(--dark-blue-gradient);
+}
+
 .sub-header {
     display: grid;
     grid-template-columns: 0fr 3fr 2fr;
