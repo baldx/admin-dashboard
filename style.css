@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     height: 100vh;
+    color: white;
 }
 
 @font-face {
@@ -19,6 +20,8 @@ body {
     --side-bar-color: #1A5F7A;
     --dark-blue-gradient: #002B5B; 
 }
+
+/*HEADER STYLES*/
 
 img {
     height: 2em;
@@ -124,9 +127,53 @@ button {
     background-color: var(--side-bar-color);
     padding: 16px;
     font-size: 1.4em;
+    color: white;
 }
 
 button:active {
     background-color: #002B5B;
+}
+
+/*SIDEBAR STYLES*/
+
+
+a {
     color: white;
+    text-decoration: none;
+}
+
+.nav li:nth-child(1) {
+    list-style-image: url("assets/sidebar\ assets/home.svg");
+}
+
+.nav li:nth-child(2) {
+    list-style-image: url("assets/sidebar\ assets/table-account.svg");
+}
+
+.nav li:nth-child(3) {
+    list-style-image: url("assets/sidebar\ assets/message-badge.svg");
+}
+
+.nav li:nth-child(4) {
+    list-style-image: url("assets/sidebar\ assets/clock-time-three-outline.svg");
+}
+
+.nav li:nth-child(5) {
+    list-style-image: url("assets/sidebar\ assets/file-account.svg");
+}
+
+.nav li:nth-child(6) {
+    list-style-image: url("assets/sidebar\ assets/account-group.svg");
+}
+
+.user-stuff li:nth-child(1) {
+    list-style-image: url("assets/sidebar\ assets/cog.svg");
+}
+
+.user-stuff li:nth-child(2) {
+    list-style-image: url("assets/sidebar\ assets/head-question-outline.svg");
+}
+
+.user-stuff li:nth-child(3) {
+    list-style-image: url("assets/sidebar\ assets/shield-account-variant.svg");
 }
