@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: inherit;
+}
+
+.header {
+    grid-column: 2 / 3;
+    background-color: aliceblue;
+}
+
+.sidebar {
+    background-color: aqua;
+    grid-row: 1 / 4;
+    height: 1fr;
+}
+
+main {
+    background-color: azure;
+    border: 1px solid black;
+    grid-row: 2 / 4;
+}
+
+.container > div {
+    border: 1px solid black;
+}
