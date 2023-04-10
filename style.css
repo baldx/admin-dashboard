@@ -279,3 +279,21 @@ main {
     font-size: 0.9em;
     font-weight: lighter;
 }
+
+.icon-container {
+    display: grid;
+    grid-template-columns: 3em 3em 3em;
+    justify-content: end;
+    margin: 16px;
+    gap: 16px;
+}
+
+.icon-container button {
+    border-radius: 25px;
+    border: none;
+    background: transparent;
+}
+
+button:active {
+    background: var(--side-bar-color);
+}
