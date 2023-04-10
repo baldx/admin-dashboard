@@ -266,3 +266,16 @@ main {
     border-bottom-left-radius: 10px;
     background: linear-gradient(var(--dark-blue-gradient), var(--h-bg-color));
 }
+
+.card-text-container {
+    margin-left: 16px;
+}
+
+.card-text-container h3 {
+    font-size: 1.4em;
+}
+
+.card-text-container p {
+    font-size: 0.9em;
+    font-weight: lighter;
+}
