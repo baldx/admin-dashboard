@@ -125,7 +125,7 @@ input[type="search"]:focus {
     gap: 16px;
 }
 
-button {
+.header button {
     border-radius: 25px;
     border: none;
     background-color: var(--side-bar-color);
@@ -134,7 +134,7 @@ button {
     color: white;
 }
 
-button:active {
+.header button:active {
     background-color: #002B5B;
 }
 
@@ -216,4 +216,27 @@ ul {
 
 .user-stuff li:nth-child(3) {
     list-style-image: url("assets/sidebar\ assets/shield-account-variant.svg");
+}
+
+/*MAIN CONTENT STYLES*/
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.card-group {
+    border: 1px solid red;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-container {
+    border: 1px solid blue;
+}
+
+.card-header {
+    margin: 16px;
+    font-size: 2em;
 }
