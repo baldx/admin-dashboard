@@ -93,6 +93,11 @@ input[type="search"] {
     padding: 8px;
 }
 
+::placeholder {
+    font-weight: lighter;
+    font-style: italic;
+}
+
 input[type="search"]:focus {
     border: 2px solid var(--dark-blue-gradient);
 }
@@ -226,7 +231,6 @@ main {
 }
 
 .card-group {
-    border: 1px solid red;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
