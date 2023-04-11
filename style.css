@@ -313,7 +313,7 @@ button:active {
     box-shadow: var(--dark-blue-gradient) 0px 8px 24px;
 }
 
-.side-main-container h3 {
+.announcement-heading {
     position: relative;
     top: 16px;
     font-size: 1.7em;
@@ -322,4 +322,37 @@ button:active {
 
 .announcement-header {
     font-size: 1.2em;
+}
+
+/*TRENDING STYLE*/
+
+
+
+.trending-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    margin-top: 64px;
+    background: var(--h-bg-color);
+    box-shadow: var(--dark-blue-gradient) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.trending-header {
+    position: absolute;
+    bottom: 300px;
+    font-size: 1.7em;
+}
+
+.trending-profile {
+    display: flex;
+}
+
+.trending-profile img {
+    border-radius: 50px;
+}
+
+.trending-user-info {
+    margin: 0px;
 }
