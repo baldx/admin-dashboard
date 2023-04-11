@@ -301,3 +301,20 @@ main {
 button:active {
     background: var(--side-bar-color);
 }
+
+/*STYLE ANNOUNCEMENTS*/
+
+.announcements-container {
+    margin: 16px;
+    background: var(--h-bg-color);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.side-main-container h3 {
+    position: relative;
+    left: 16px;
+    top: 16px;
+    font-size: 1.7em;
+    margin-top: 4px;
+}
