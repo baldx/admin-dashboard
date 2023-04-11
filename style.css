@@ -306,15 +306,20 @@ button:active {
 
 .announcements-container {
     margin: 16px;
+    margin-left: 0px;
     background: var(--h-bg-color);
     border-radius: 10px;
     padding: 16px;
+    box-shadow: var(--dark-blue-gradient) 0px 8px 24px;
 }
 
 .side-main-container h3 {
     position: relative;
-    left: 16px;
     top: 16px;
     font-size: 1.7em;
     margin-top: 4px;
+}
+
+.announcement-header {
+    font-size: 1.2em;
 }
