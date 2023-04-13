@@ -371,7 +371,6 @@ button:active {
 /*FIX DRAGGABLE IMAGES*/
 
 img {
-    user-drag: none;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
